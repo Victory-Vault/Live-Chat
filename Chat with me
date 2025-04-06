@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Chat</title>
+  <script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = "7f9c9b8759659111b87f891d6430fedd8e9b7711"; // Your Smartsupp key
+    window.smartsupp || (function(d) {
+      var s, c, o = smartsupp = function() { o._.push(arguments) };
+      o._ = [];
+      s = d.getElementsByTagName("script")[0];
+      c = d.createElement("script");
+      c.type = "text/javascript";
+      c.charset = "utf-8";
+      c.async = true;
+      c.src = "https://www.smartsuppchat.com/loader.js?";
+      s.parentNode.insertBefore(c, s);
+    })(document);
+  </script>
+</head>
+<body>
+  <h1>Welcome to Our Live Chat</h1>
+  <p>Feel free to chat with us!</p>
+</body>
+</html>
